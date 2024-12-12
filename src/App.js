@@ -4,6 +4,7 @@ import IndexPage from './pages/IndexPage';
 import Welcome from './pages/Welcome';
 import Resume1 from './pages/Resume1';
 import Resume2 from './pages/Resume2';
+import RecentProjects from './pages/RecentProjects'; // Import RecentProjects
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Welcome />} />
           <Route path="resume1" element={<Resume1 />} />
           <Route path="resume2" element={<Resume2 />} />
+          <Route path="projects" element={<RecentProjects />} /> {/* Add the route for projects */}
         </Route>
       </Routes>
     </Router>
