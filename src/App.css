@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.left-panel img {
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+.right-panel {
+  height: 80vh;
+}
